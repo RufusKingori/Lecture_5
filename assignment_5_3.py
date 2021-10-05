@@ -3,7 +3,7 @@
 def sumnum(num1, num2, k):
     sum = pow(num1, k)
     for i in range(num1, num2):
-        sum = sum + ((i+1) ** k)
+        sum = sum + pow(i+1, k)
     return sum
 
 def mainsum():
